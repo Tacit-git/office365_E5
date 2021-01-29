@@ -6,9 +6,9 @@ on:
     types: [published]
   push:
     tags:
-    - 'v*'
+ #   - 'v*'
   #  branches: 
-  #    - master
+    - master
   schedule:
     - cron: '12 */6 * * *'
   watch:
