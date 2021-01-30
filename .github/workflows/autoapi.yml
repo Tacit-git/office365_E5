@@ -50,7 +50,7 @@ jobs:
     - name: Commit #上传新的refresh_token到仓库
       run: |
         git config --global user.email 1750630216@qq.com
-        git config --global user.name Tacit
+        git config --global user.name Tacit-git
         git add .
         git commit -m "update new refresh_token" -a
     - name: Push changes
